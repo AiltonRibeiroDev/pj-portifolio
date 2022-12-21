@@ -1,0 +1,88 @@
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logoDois {
+    display: inline;
+    margin-bottom: 90px;
+  }
+
+  .nav-bar > img {
+    width: 322px;
+    margin-top: -94px;
+    z-index: 1;
+  }
+
+  .presentation {
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 29px;
+    width: 445px;
+    margin-right: -30px;
+  }
+
+  .presentation > h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -2.04545px;
+    color: #ffffff;
+
+    position: relative;
+  }
+
+  .presentation > p {
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    width: 445px;
+    margin-left: -4px;
+  }
+
+  .br {
+    display: inline;
+  }
+
+  .presentation > a {
+    padding: 0 0 12px 0;
+    margin-top: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1110px) {
+  .presentation {
+    width: 720px;
+  }
+
+  .presentation > h1 {
+    font-size: 88px;
+
+    padding: 0;
+  }
+
+  .br {
+    display: none;
+  }
+
+  .presentation > p {
+    font-size: 18px;
+  }
+
+  
+
+}

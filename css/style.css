@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+
+/*-------------------------------------------------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk';
+}
+
+
+body{
+    background-color: #151515;
+    text-align: center;
+}
+
+header{
+    padding: 20px 0 0 0;
+}
+
+
+.nav-section{
+    display: flex;
+    gap: 25px;
+ 
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav-bar > img{
+    width: 180px;
+    margin-top: -94px;
+    z-index: 1;
+    position: relative;
+   
+}
+
+.logoDois{
+    display: none;
+}
+
+
+.presentation{
+    
+   margin-top: 50px;
+
+   
+}
+.br{
+    display: none;
+}
+
+.presentation > h1{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700px;
+padding: 1rem;
+    
+}
+
+h1 > span{
+    border-bottom: 4px solid #4EE1A0;
+}
+
+.presentation > p{
+    color: #D9D9D9;
+    font-size: 1rem;
+    margin: 20px 16px;
+    font-weight: 500;
+}
+
+.presentation > a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.28571px;
+    color: #FFFFFF;
+    padding: 1rem;
+    border-bottom: 2px solid #4EE1A0;
+}
+
+.presentation > a:hover {
+    color: rgb(76, 76, 224);
+    transition: 0.4s;
+    border-bottom: 2px solid #23aa6d;
+   }
+
+/*-------------------------------------------------------------------*/
