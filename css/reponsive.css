@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 700px) {
   header {
     display: flex;
     flex-direction: row-reverse;
@@ -16,12 +16,17 @@
   .logoDois {
     display: inline;
     margin-bottom: 90px;
+    margin-left: 20px;
+  }
+
+  .nav-bar {
+    margin-right: -190px;
   }
 
   .nav-bar > img {
-    width: 322px;
-    margin-top: -94px;
-    z-index: 1;
+    width: 650px;
+    margin-top: 91px;
+    position: relative;
   }
 
   .presentation {
@@ -29,7 +34,7 @@
     margin-left: 2rem;
     margin-top: 29px;
     width: 445px;
-    margin-right: -30px;
+    margin-right: -100px;
   }
 
   .presentation > h1 {
@@ -100,6 +105,40 @@
     margin-bottom: 52px;
   }
 
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+  }
+
+  .contact {
+    padding: 60px 165px;
+  }
+
+  .contact > div > p {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .contact > div > h1 {
+    font-size: 72px;
+  }
+
+  .main {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main > div {
+    border: 1px solid ridge;
+    text-align: center;
+    margin-top: -0.5px;
+  }
+
+  .presentation > h1 {
+    line-height: 72px;
+  }
+
 }
 
 /*----------------------------------------------------------------*/
@@ -109,6 +148,15 @@
     display: flex;
     justify-content: center;
   }
+
+  .logoDois {
+    margin-left: 20px;
+  }
+
+  .presentation > h1 {
+    line-height: 95px;
+  }
+
 }
 
 /*----------------------------------------------------------------*/
@@ -133,8 +181,6 @@
     font-size: 18px;
   }
 
-  
-
   .container {
     padding: 52px 30px;
   }
@@ -142,6 +188,32 @@
   .box {
     margin: 0;
     margin-bottom: 52px;
+  }
+
+  .projects {
+    margin: 20px 165px;
+  }
+
+  .miniBox {
+    margin: 0px 165px;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+  }
+
+  .contact > div > h1,
+  p {
+    text-align: left;
+    left: 0;
+  }
+
+  .contact > div > p {
+    margin-top: 36px;
+    font-size: 18px;
+    text-align: start;
   }
 }
 
@@ -155,5 +227,13 @@
   .boxM,
   .boxMargin {
     margin-top: 72px;
+  }
+
+  .contact {
+    justify-content: center;
+  }
+
+  .contact > div {
+    width: 445px;
   }
 }

@@ -11,6 +11,7 @@
 body {
   background-color: #151515;
   text-align: center;
+  overflow-x: hidden;
 }
 
 header {
@@ -26,8 +27,8 @@ header {
 }
 
 .nav-bar > img {
-  width: 180px;
-  margin-top: -94px;
+  width: 220px;
+  margin-top: 5px;
   z-index: 1;
   position: relative;
 }
@@ -81,18 +82,14 @@ h1 > span {
 /*-------------------------------------------------------------------*/
 
 .container {
-  margin: 80px;
-  
+  margin: 80px 14px;
+  border-bottom: 2px solid white;
   border-top: 2px solid white;
-  
+  padding: 40px 14px;
 }
 
 .box {
   margin-bottom: 24px;
-}
-
-.boxMargin {
-  margin-top: 40px;
 }
 
 .box > h1 {
@@ -114,4 +111,177 @@ h1 > span {
   line-height: 26px;
   text-align: center;
   color: #d9d9d9;
+}
+
+/*------------  Projects  -------------*/
+
+.projects {
+  padding: 1rem;
+}
+
+.box-large {
+  margin-bottom: 40px;
+}
+
+.projects img {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.miniBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+.miniBox > h1 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.btnBox {
+  font-size: 1rem;
+  color: #ffffff;
+  border-bottom: 2px solid #4ee1a0;
+  text-decoration: none;
+  padding-bottom: 10px;
+  letter-spacing: 2.28571px;
+}
+
+.btnBox:hover {
+  color: #23aa6d;
+  transition: 0.4s;
+}
+
+.minBoxL {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.minBoxL > h2 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.minBoxL > p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #d9d9d9;
+}
+
+.minBoxL > p > span {
+  margin-left: 18px;
+}
+
+.btns {
+  display: flex;
+  gap: 30px;
+}
+
+/*------------  Contact  -------------*/
+
+.contact {
+  padding: 60px 1rem;
+  background-color: #242424;
+}
+
+.contact> div > h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -1.13636px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.contact > div > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #d9d9d9;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+form > input,
+textarea {
+  background-color: #242424;
+  border: 0;
+}
+
+input[type="text"],
+textarea {
+  margin-bottom: 2rem;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  border-bottom: 1px solid #ffffff;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.222222px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  padding-top: 12px;
+}
+
+textarea {
+  height: 120px;
+}
+
+input[type="submit"] {
+  font-size: 1rem;
+  color: #ffffff;
+  border-bottom: 2px solid #4ee1a0;
+  text-decoration: none;
+  padding-bottom: 10px;
+  letter-spacing: 2.28571px;
+  width: 144px;
+  align-self: flex-end;
+}
+
+input[type="submit"]:hover {
+ cursor: pointer;
+ transition: 0.4s;
+ color: #23aa6d;
+}
+
+footer {
+  background-color: #242424;
+  padding: 1rem;
+  
+}
+
+.main {
+  padding: 39px;
+  border-top: 1px solid #FFFFFF;
+  
+}
+
+.main > div {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+  
 }
